@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-xdist = "*"
+
+[packages]
+"celery[redis]" = "*"
+python-dotenv = "*"
+requests = "*"
+elasticsearch = "==7.*"
+
+[requires]
+python_version = "3.8"
